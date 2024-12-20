@@ -1,0 +1,65 @@
+* {
+    background-color: #f6f6f6;
+    width: 100%;
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cart {
+    background-color: #8629ff;
+    width: 650px;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 60px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.cart > p {
+    background-color: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 600px;
+}
+
+.cart > ul {
+    background-color: transparent;
+    padding-left: 70px;
+}
+
+.cart > ul > li {
+    background-color: transparent;
+}
+
+.cart > ul > li > ol {
+    background-color: transparent;
+    padding-left: 70px;
+}
+
+.cart >  ul > li > ol > li {
+    background-color: transparent;
+}
+
+.cart >  ul > li > ol > li:last-child {
+    padding-bottom: 10px;
+}
+
+.day1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 28px;
+    background-color: transparent;
+}

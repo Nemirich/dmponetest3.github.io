@@ -1,0 +1,222 @@
+* {
+    background-color: #f6f6f6;
+    width: 100%;
+    font-family: Grotesk;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.vst {
+    background: linear-gradient(to right,#9c6dff,#6b25ff);
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.vst > img {
+    width: 200px;
+    border-radius: 50px;
+    grid-column: 1;
+    place-self: center;
+}
+
+.vst > span {
+background-color: transparent;
+color: white;
+font-size: 36px;
+grid-column: 2 / 4;
+place-self: center;
+text-align: center;
+font-family: "Exo 2", serif;
+font-weight: 500;
+}
+
+.greetings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f6f6f6;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.greetings > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    text-align: center;
+    width: 700px;
+    font-family: "ABeeZee", serif;
+}
+
+.day {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    height: auto;
+    background-color: #f6f6f6;
+    margin-top: 25px;
+}
+
+.day > div > img {
+    background-color: transparent;
+    }
+
+.d1 {
+    height: auto;
+    border-top: 0;
+    border-bottom: 0;
+    width: 25%;
+    background: linear-gradient(to right,#9c6dff,#6b25ff);
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 60px;
+}
+
+
+.d1 > h2 {
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 150px;
+    background-color: transparent;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Exo 2", serif;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#plan1 {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 30px;
+    font-family: "Exo 2", serif;
+    font-weight: 500;
+}
+
+
+.d2 {
+    height: auto;
+    border-top: 0;
+    border-bottom: 0;
+    width: 25%;
+    background: linear-gradient(to right,#9c6dff,#6b25ff);
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 60px;
+}
+
+.d2 > h2 {
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 150px;
+    background-color: transparent;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Exo 2", serif;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#plan2 {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: "Exo 2", serif;
+    font-weight: 500;
+}
+
+.d3 {
+    height: auto;
+    border-top: 0;
+    border-bottom: 0;
+    width: 25%;
+    background: linear-gradient(to right,#9c6dff,#6b25ff);
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 60px;
+}
+
+.d3 > h2 {
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 150px;
+    background-color: transparent;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Exo 2", serif;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#plan3 {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: "Exo 2", serif;
+    font-weight: 500;
+}
+
+
+.footer1 {
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 22px;
+height: 200px;
+background-color: transparent;
+margin-top: 50px;
+}
+
+.footer1 > h3 {
+    background-color: transparent;
+    color: black;
+    font-size: 28px;
+}
+
+
